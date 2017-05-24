@@ -1,0 +1,153 @@
+    html,body{
+      background:#ECEBE7;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+    section{margin:0; padding:0;}
+    section#topo{
+      padding: 0;
+      margin: 0;
+      display: block;
+      background: #010342;
+      font-size: 18px;
+      color: #FFF;
+      position: fixed;
+      top: 0;
+      z-index: 1;
+      width: 100%;    
+    }
+    .limite{
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    section#topo h1{
+      font-size: 31px;
+      width: 300px;
+      display: inline-block;
+      text-align: left;
+      margin: 10px 0;
+    }
+    section#topo h1 a{
+      color: #F7F7F7;
+      text-decoration: none;
+    }
+    section#topo .busca{
+      width: 890px;
+      margin: 10px 0;
+      text-align: right;
+      display: inline-block;
+      vertical-align: top;
+    }
+    section#topo .busca input[type=text]{
+      padding: 10px 20px 10px 10px;
+      margin: 0;
+      outline: none;
+      background: rgba(0,0,0,0.8);
+      color: #727070;
+      font-weight: 600;
+      width: 300px;
+      border: none;
+      border-radius: 6px;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      -o-border-radius: 6px;
+      cursor: pointer;
+      transition: width 1s;
+      -webkit-transition: width 1s;  
+      position: relative;
+      right: -10px;
+    }
+    section#topo .busca input[type=text]:hover,
+    section#topo .busca input[type=text]:focus{
+      width: 500px;
+    }
+    section#topo .busca input[type=text] + i::after{
+      content: "\f002";
+      font: normal normal normal 14px/1 FontAwesome;
+      color: #727070;
+      position:relative;
+      right: 20px;
+    }
+    section#portfolio h2{
+      margin-top: 70px;
+      position: relative;
+    }
+    section#portfolio h2 a.perfil{
+      text-decoration: none;
+      font-size: 35px;
+      color: #010342;
+    }
+    section#portfolio h2 a.perfil i.fa-user{
+      font-size: 55px;
+    }
+    section#portfolio h2 a.perfil:hover{
+      text-decoration: underline;
+    }
+
+    ul#dribble{
+      list-style: none;
+      display: block;
+      width: 800px;
+      margin: 0 auto;
+    }
+    li.box{
+      padding: 15px;
+      margin: 5px;
+      display: inline-block;
+      text-align: center;
+      vertical-align: top;
+    }
+    li.box:hover{
+      background: #f7f7f7;
+      cursor: pointer;
+    }
+    li.box h2{
+      font-size: 16px;
+      text-overflow: ellipsis; 
+      white-space: nowrap;
+      overflow: hidden;
+      max-width: 15ch;
+      margin: 0 auto;
+    }
+    li.box p{
+      width: 100%;
+      display: block;
+      text-align: center;
+    }
+    li.box p a{
+      text-decoration: none;
+      background: #5cc63f;
+      color: #FFF;
+      padding: 5px 15px;
+    }
+    li.box span, a.curtidas{
+      display: inline-block;
+      font-size: 14px !important;
+      color: #A1A1A1;
+      margin-right: 10px;
+    }
+    li.box a.curtidas:hover{color:#Ff0000;}
+    li.box i{
+      font-size: 22px;
+    }
+    ul.menu-tamanho{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul.menu-tamanho li{
+      display: block;
+      text-align: center;
+      padding: 2px 0px;
+    }
+    ul.menu-tamanho li a{
+      font-size: 12px;
+      text-decoration: none;
+      color: #494947;
+    }
+    ul.menu-tamanho li a:hover{
+      text-decoration: underline;
+    }
